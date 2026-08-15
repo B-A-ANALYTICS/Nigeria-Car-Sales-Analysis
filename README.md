@@ -35,10 +35,11 @@ This project simulates the complete workflow of an automotive market analyst. Ra
 ```mermaid
 graph LR
     A[Raw Excel Export<br>10,000+ rows, 16 cols] --> B(Excel: Cleaning & Validation);
-    B --> C[Cleaned CSV<br>19,943 rows, 0 nulls];
-    C --> D[Analysis-Ready Views<br>Monthly, Dealer, Brand, Region];
-    D --> E(Excel Dashboard)
-    E --> F[Automated 5-Page Report];
+    B --> C[Cleaned Excel File<br>19,943 rows, 0 nulls];
+    C --> D(Excel: PivotTables & Power Query);
+    D --> E[Analysis-Ready Data<br>Monthly, Dealer, Brand, Region];
+    E --> F(Excel Dashboard);
+    F --> G[Automated 5-Page Report];
 
 ==========================================================================
 PHASE 1: EXCEL DATA CLEANING
