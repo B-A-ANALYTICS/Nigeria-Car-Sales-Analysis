@@ -30,17 +30,6 @@ This project simulates the complete workflow of an automotive market analyst. Ra
 | **Data Cleaning** | Microsoft Excel | Remove Duplicates, TRIM/PROPER, Text-to-Columns, Conditional Formatting, Median/Mode Imputation, KPI Formulas |
 | **Visualization & Automation** | Excel Dashboard | Power Query Refresh from SQL Views, Multi-page Report Design, PivotTables, Slicers, Brand-Specific Dashboards |
 
-## 🧩 Pipeline Architecture
-
-```mermaid
-graph LR
-    A[Raw Excel Export<br>10,000+ rows, 16 cols] --> B(Excel: Cleaning & Validation);
-    B --> C[Cleaned Excel File<br>19,943 rows, 0 nulls];
-    C --> D(Excel: PivotTables & Power Query);
-    D --> E[Analysis-Ready Data<br>Monthly, Dealer, Brand, Region];
-    E --> F(Excel Dashboard);
-    F --> G[Automated 5-Page Report];
-
 ==========================================================================
 PHASE 1: EXCEL DATA CLEANING
 ------------------------------
@@ -125,3 +114,14 @@ KEY FINDINGS & INSIGHTS
       Hilux leads with 2,520 units, followed by Corolla (2,469),
       Camry (2,446), Highlander (2,537), and RAV4 (2,612).
 ===========================================================================
+
+## 🧩 Pipeline Architecture
+
+```mermaid
+graph LR
+    A[Raw Excel Export<br>10,000+ rows, 16 cols] --> B(Excel: Cleaning & Validation);
+    B --> C[Cleaned Excel File<br>19,943 rows, 0 nulls];
+    C --> D(Excel: PivotTables & Power Query);
+    D --> E[Analysis-Ready Data<br>Monthly, Dealer, Brand, Region];
+    E --> F(Excel Dashboard);
+    F --> G[Automated 5-Page Report];
