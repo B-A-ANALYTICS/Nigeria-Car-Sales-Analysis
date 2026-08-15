@@ -1,7 +1,6 @@
 # Nigerian Car Sales Analysis Dashboard (H1 2026)
 
 [![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://www.microsoft.com/)
-[![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![Power Query](https://img.shields.io/badge/Power_Query-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://www.microsoft.com/)
 
 > **19,943 vehicles sold. 5 brands. 10 Nigerian states. 1 messy dataset.**  
@@ -30,7 +29,7 @@ This project simulates the complete workflow of an automotive market analyst. Ra
 | **Data Cleaning** | Microsoft Excel | Remove Duplicates, TRIM/PROPER, Text-to-Columns, Conditional Formatting, Median/Mode Imputation, KPI Formulas |
 | **Visualization & Automation** | Excel Dashboard | Power Query Refresh from SQL Views, Multi-page Report Design, PivotTables, Slicers, Brand-Specific Dashboards |
 
-==========================================================================
+===============================================================
 PHASE 1: EXCEL DATA CLEANING
 ------------------------------
 Addressed realistic data entry errors to build a trustworthy foundation:
@@ -69,15 +68,16 @@ The dashboard is built across five interactive pages:
   · Hyundai Dashboard
       Hyundai-specific KPIs, model breakdown, regional sales,
       and dealer performance.
-
+      
   · Lexus Dashboard
       Lexus-specific KPIs, model breakdown, regional sales,
       and dealer performance.
-============================================================================
 
-===========================================================================
-KEY FINDINGS & INSIGHTS
-===========================================================================
+=================================================================
+
+
+KEY FINDINGS & INSIGHTD
+================================================================
 
   · Total Market Value
       ₦642.05 billion across 19,943 vehicles sold in H1 2026.
@@ -110,7 +110,7 @@ KEY FINDINGS & INSIGHTS
       suggesting either a high-demand market or untapped promotional
       opportunities.
 
-  · Best-Selling Models
+  Best-Selling Models
       Hilux leads with 2,520 units, followed by Corolla (2,469),
       Camry (2,446), Highlander (2,537), and RAV4 (2,612).
 ===========================================================================
